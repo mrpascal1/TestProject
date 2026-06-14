@@ -9,6 +9,9 @@ object ListItemGenerator {
         "Gold", "Silver", "Iron", "Steel", "Rock", "Stone", "Cloud", "Storm"
     )
 
+
+
+
     fun generateList(): List<ListItem> {
         return (1..100).map { index ->
             val word1 = commonWords[index % commonWords.size]
